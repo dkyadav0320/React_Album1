@@ -1,0 +1,18 @@
+@import '../../sass/variables';
+
+.item {
+  height: 30rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.fullSize {
+  border: 1.7rem solid $color-white;
+  position: fixed;
+  top: 50vh;
+  left: 55vw;
+  transform: translate(-60%, -60%);
+  z-index: 900;
+}
